@@ -25,7 +25,7 @@ public class ProductToXmlTest {
 	 	
 	    @Before
 	    public void setUp() {
-	        long l = 10; 
+	        long l = 11; 
 	        ArrayList<Item> listItem = new ArrayList<>();
 	        listItem.add(new Item());
 	        product = new Product("PO1", "Spring Guru Mug", "1", new BigDecimal(18.95), null,listItem);
